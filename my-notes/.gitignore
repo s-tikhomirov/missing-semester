@@ -1,0 +1,30 @@
+# Transient scratch files and outputs documented in the exercise write-ups.
+# Sources (.sh, .c, .py, .md) stay tracked.
+
+# Exercise scratch files (lectures 1-3)
+out.txt
+err.txt
+.out.txt
+file.txt
+file?.txt
+test.txt
+test2.txt
+notes.txt
+notes-*.txt
+thedate.txt
+.hidden_file
+
+# Captured web page (lecture 1, curl exercise)
+syllabus.html
+
+# Run logs (flaky-script runs, return-codes exercise)
+*.log
+
+# Profiling output (lecture 4)
+perf.data
+
+# Compiled binaries (lecture 4 exercises)
+lecture-4/exercises/exercise-1-sort/sort
+lecture-4/exercises/exercise-2-corruption/corruption
+lecture-4/exercises/exercise-3-uaf/uaf
+lecture-4/exercises/exercise-slow/slow
